@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 30px;
+  color: var(--colors-black-text, #222);
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 42px */
+  text-transform: uppercase;
+}
+
+.letter {
+  color: var(--blue-color-100, #4f8ff0);
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.change {
+  margin-bottom: 30px;
+}
+.text {
+  margin-top: 15px;
+  display: inline;
+  color: var(--colors-black-text, #222);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.book {
+  float: right;
+  margin: 0 0 5px 5px;
+  display: inline-block;
+  width: 535px;
+  height: 359px;
+  flex-shrink: 0;
+}
